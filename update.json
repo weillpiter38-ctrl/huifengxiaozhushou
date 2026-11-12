@@ -1,7 +1,7 @@
 {
-  "version": "0.9.24",
-  "url": "https://github.com/weillpiter38-ctrl/huifengxiaozhushou/releases/download/v0.9.24/HuifengsModManager.exe",
-  "sha256": "14454856bad42f4e3b0e234d57078cc1e2dd9cdda4d7624afb86bf5c8bbf7972",
-  "notes": "0.9.24：声明感谢 Irony Mod Manager（BCS），明确独立实现未复制源码；固定 GitHub 更新源。",
-  "published_at": "2026-11-13 04:52:26"
+  "version": "0.9.35",
+  "url": "https://github.com/weillpiter38-ctrl/huifengxiaozhushou/releases/download/v0.9.35/HuifengsModManager.exe",
+  "sha256": "866a783df30ed45a84af4dd9f6b64dd6f7bceb6ef4b7d28e9a381e182b8c050a",
+  "notes": "0.9.35：声明更新、修复版本号；包含分享码、安全模式、快照/回滚、文件清理、按钮提示等近期功能。",
+  "published_at": "2026-11-13 06:17:53"
 }
