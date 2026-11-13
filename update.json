@@ -1,7 +1,7 @@
 {
-  "version": "0.9.35",
-  "url": "https://github.com/weillpiter38-ctrl/huifengxiaozhushou/releases/download/v0.9.35/HuifengsModManager.exe",
-  "sha256": "866a783df30ed45a84af4dd9f6b64dd6f7bceb6ef4b7d28e9a381e182b8c050a",
-  "notes": "0.9.35：声明更新、修复版本号；包含分享码、安全模式、快照/回滚、文件清理、按钮提示等近期功能。",
-  "published_at": "2026-11-13 06:17:53"
+  "version": "0.9.42",
+  "url": "https://github.com/weillpiter38-ctrl/huifengxiaozhushou/releases/download/v0.9.42/HuifengsModManager.exe",
+  "sha256": "6f2b6ebe26d1cf1d040b615caa8966338aa3575af5cfca87c5923be65cbb8d3d",
+  "notes": "0.9.42：重写声明，只保留功能说明和注意事项；开头注明参考与 AI 辅助制作，结尾致谢；首次启动自动弹出声明；本地 MOD 工坊上传支持自动下载 SteamCMD、自动上传与工坊 ID 保存。",
+  "published_at": "2026-11-13 08:25:45"
 }
