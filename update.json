@@ -1,13 +1,13 @@
 {
-  "version": "0.9.55",
-  "url": "https://github.com/weillpiter38-ctrl/huifengxiaozhushou/releases/download/v0.9.55/HuifengsModManager.exe",
-  "sha256": "d615e9caf4418896e19d4ca447f6c6f6a56dc3c382b1cc7234c9caaf8d09f4dd",
-  "notes": "0.9.55：游戏设置移入更多抽屉，Steam 启动移到启动游戏旁，补充启动说明和跳过官方启动器的 DLC 启动选项。",
+  "version": "0.9.59",
+  "url": "https://github.com/weillpiter38-ctrl/huifengxiaozhushou/releases/download/v0.9.59/HuifengsModManager.exe",
+  "sha256": "268a5d1d80decc61beb4cd1a362b99616a8b30ef680745ec3fb6ac8e18a90c51",
+  "notes": "0.9.59：检查更新网络失败时给出友好提示，并增加备用更新源。",
   "changelog": [
-    "右下角【游戏设置】移到【联机/更多】抽屉",
-    "【Steam 启动】放到【启动游戏】旁边",
-    "两个启动按钮增加悬停说明，区分直接启动与 Steam 启动",
-    "DLC 弹窗增加跳过官方启动器但保留 DLC 的 Steam 启动选项说明和复制按钮"
+    "检查更新遇到网络/DNS 失败时，改为提示检查网络或代理，不再显示原始 Python 报错",
+    "更新检查增加 jsDelivr / ghproxy 备用源",
+    "下载更新失败时同样给出友好提示",
+    "播放集 ↻ 重新扫描按钮保留"
   ],
-  "published_at": "2026-11-13 16:39:47"
+  "published_at": "2026-11-13 17:56:01"
 }
