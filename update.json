@@ -1,15 +1,14 @@
 {
-  "version": "0.9.46",
-  "url": "https://github.com/weillpiter38-ctrl/huifengxiaozhushou/releases/download/v0.9.46/HuifengsModManager.exe",
-  "sha256": "3fdabc28adabc1bc1b84581e6d906cd60ad90ef1edc1d44dd1ad47958de4c52f",
-  "notes": "0.9.43-0.9.46：新增群星/钢铁雄心4 切换、HOI4 基础管理、HOI4 游戏设置、记住上次游戏、更新日志弹窗。",
+  "version": "0.9.47",
+  "url": "https://github.com/weillpiter38-ctrl/huifengxiaozhushou/releases/download/v0.9.47/HuifengsModManager.exe",
+  "sha256": "62ed7a53f8a7c9312c134c9cc5dfa10c335472fc67496ed13a9e46f44efbd728",
+  "notes": "0.9.47：新增 DLC 启用状态显示，可查看已安装 DLC、启用全部已安装 DLC，并提供 Steam 启动排查入口。",
   "changelog": [
-    "一个管理器内切换《群星》和《钢铁雄心4》，各自使用独立数据目录",
-    "HOI4 支持双栏 MOD 管理、播放集、工坊更新检测、分享码、快照、安全模式、合并和启动",
-    "HOI4 支持修改语言、显示模式、分辨率、界面缩放、垂直同步和音量",
-    "记住上次关闭时使用的游戏，下次启动自动恢复",
-    "推送新版本时自动弹出更新日志，同一版本关闭后不重复弹窗",
-    "HOI4 的深度分析和存档功能暂未适配，界面会禁用并提示"
+    "MOD 数据库右侧新增 DLC 启用状态，显示已安装/启用/禁用数量",
+    "点击 DLC 状态可查看所有已安装 DLC 及各自启用情况",
+    "支持启用全部已安装 DLC，不会解锁未拥有的 DLC",
+    "DLC 弹窗新增【通过 Steam 启动】，用于排查直接启动时 DLC 未挂载",
+    "群星和钢铁雄心4 都支持 DLC 状态显示"
   ],
-  "published_at": "2026-11-13 09:15:24"
+  "published_at": "2026-11-13 13:53:17"
 }
