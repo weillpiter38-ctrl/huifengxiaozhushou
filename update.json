@@ -1,7 +1,15 @@
 {
-  "version": "0.9.42",
-  "url": "https://github.com/weillpiter38-ctrl/huifengxiaozhushou/releases/download/v0.9.42/HuifengsModManager.exe",
-  "sha256": "6f2b6ebe26d1cf1d040b615caa8966338aa3575af5cfca87c5923be65cbb8d3d",
-  "notes": "0.9.42：重写声明，只保留功能说明和注意事项；开头注明参考与 AI 辅助制作，结尾致谢；首次启动自动弹出声明；本地 MOD 工坊上传支持自动下载 SteamCMD、自动上传与工坊 ID 保存。",
-  "published_at": "2026-11-13 08:25:45"
+  "version": "0.9.46",
+  "url": "https://github.com/weillpiter38-ctrl/huifengxiaozhushou/releases/download/v0.9.46/HuifengsModManager.exe",
+  "sha256": "3fdabc28adabc1bc1b84581e6d906cd60ad90ef1edc1d44dd1ad47958de4c52f",
+  "notes": "0.9.43-0.9.46：新增群星/钢铁雄心4 切换、HOI4 基础管理、HOI4 游戏设置、记住上次游戏、更新日志弹窗。",
+  "changelog": [
+    "一个管理器内切换《群星》和《钢铁雄心4》，各自使用独立数据目录",
+    "HOI4 支持双栏 MOD 管理、播放集、工坊更新检测、分享码、快照、安全模式、合并和启动",
+    "HOI4 支持修改语言、显示模式、分辨率、界面缩放、垂直同步和音量",
+    "记住上次关闭时使用的游戏，下次启动自动恢复",
+    "推送新版本时自动弹出更新日志，同一版本关闭后不重复弹窗",
+    "HOI4 的深度分析和存档功能暂未适配，界面会禁用并提示"
+  ],
+  "published_at": "2026-11-13 09:15:24"
 }
