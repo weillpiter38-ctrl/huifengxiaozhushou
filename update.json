@@ -1,14 +1,13 @@
 {
-  "version": "0.9.47",
-  "url": "https://github.com/weillpiter38-ctrl/huifengxiaozhushou/releases/download/v0.9.47/HuifengsModManager.exe",
-  "sha256": "62ed7a53f8a7c9312c134c9cc5dfa10c335472fc67496ed13a9e46f44efbd728",
-  "notes": "0.9.47：新增 DLC 启用状态显示，可查看已安装 DLC、启用全部已安装 DLC，并提供 Steam 启动排查入口。",
+  "version": "0.9.48",
+  "url": "https://github.com/weillpiter38-ctrl/huifengxiaozhushou/releases/download/v0.9.48/HuifengsModManager.exe",
+  "sha256": "7da2698e957d41517b3734830af88988e5ce0874666409b39d1e92cc6da4192d",
+  "notes": "0.9.48：MOD 详情移到最左侧并加宽，创意工坊信息区域加大，删除详情底部操作提示。",
   "changelog": [
-    "MOD 数据库右侧新增 DLC 启用状态，显示已安装/启用/禁用数量",
-    "点击 DLC 状态可查看所有已安装 DLC 及各自启用情况",
-    "支持启用全部已安装 DLC，不会解锁未拥有的 DLC",
-    "DLC 弹窗新增【通过 Steam 启动】，用于排查直接启动时 DLC 未挂载",
-    "群星和钢铁雄心4 都支持 DLC 状态显示"
+    "MOD 详情界面移动到最左侧",
+    "详情面板比未启用/已启用列表稍宽，创意工坊信息区域加大",
+    "删除详情底部的右键操作提示",
+    "群星和钢铁雄心4 均使用新布局"
   ],
-  "published_at": "2026-11-13 13:53:17"
+  "published_at": "2026-11-13 14:26:32"
 }
