@@ -1,13 +1,15 @@
 {
-  "version": "0.9.48",
-  "url": "https://github.com/weillpiter38-ctrl/huifengxiaozhushou/releases/download/v0.9.48/HuifengsModManager.exe",
-  "sha256": "7da2698e957d41517b3734830af88988e5ce0874666409b39d1e92cc6da4192d",
-  "notes": "0.9.48：MOD 详情移到最左侧并加宽，创意工坊信息区域加大，删除详情底部操作提示。",
+  "version": "0.9.51",
+  "url": "https://github.com/weillpiter38-ctrl/huifengxiaozhushou/releases/download/v0.9.51/HuifengsModManager.exe",
+  "sha256": "e2011f885ffb715b02fc6148b78f0013c3f9163d23dc0c278bf35ef0f0a44c58",
+  "notes": "0.9.51：固定 MOD 行高、搜索框清除按钮、合并包残留记录清理、修复 UGC .mod 误报，并补充合并 MOD 实测说明。",
   "changelog": [
-    "MOD 详情界面移动到最左侧",
-    "详情面板比未启用/已启用列表稍宽，创意工坊信息区域加大",
-    "删除详情底部的右键操作提示",
-    "群星和钢铁雄心4 均使用新布局"
+    "左右 MOD 列表固定行高，长名字/多标签不再把单行撑高",
+    "搜索框右侧新增 X 清除按钮，有内容时显示",
+    "删除合并包时同步从 MOD 数据库移除记录",
+    "自动清理已删除但残留的旧合并包记录",
+    "修复 UGC .mod 被误判为孤儿的问题",
+    "合并 MOD 实测可缩短约 1/3-1/2 加载时间"
   ],
-  "published_at": "2026-11-13 14:26:32"
+  "published_at": "2026-11-13 16:04:27"
 }
