@@ -1,14 +1,16 @@
 {
-  "version": "0.9.65",
-  "url": "https://github.com/weillpiter38-ctrl/huifengxiaozhushou/releases/download/v0.9.65/Huifeng.s.Mod.Manager-0.9.65.exe",
-  "sha256": "d9a5fbf0c7f64b9e69e0c6654b425c3bef9c5bd2575d2c6c9765d47a8d2cf163",
-  "notes": "0.9.65：修复路径输入截断、自动保存偶发失败，支持多版本播放集缓存，并清理已删除/过期 MOD。",
+  "version": "0.9.66",
+  "url": "https://github.com/weillpiter38-ctrl/huifengxiaozhushou/releases/download/v0.9.66/Huifeng.s.Mod.Manager-0.9.66.exe",
+  "sha256": "4ac1cf7409014067dbe62d581ebcf085a9a7be5be60f1ee9466331be5c4ef5c1",
+  "notes": "0.9.66：新增 AI 分析创意工坊描述与评论（排序/兼容/注意事项）、切换游戏不再新开窗口、修复被搬走的文档目录识别。",
   "changelog": [
-    "修复手动添加游戏/MOD 路径时输入框被 60 字符截断，路径上限改为 1024/4096",
-    "修复自动保存偶发失败：等待进行中的保存、SQLite 占用重试、备份失败不再丢弃保存、过滤失效 MOD、保存请求超时保护",
-    "修复多版本播放集缓存：支持 Stellaris Beta/测试版缓存，优先读取游戏安装目录 gameDataPath",
-    "修复已删除/过期 MOD：只统计实际存在且状态有效的 MOD，隐藏失效播放集，dlc_load 不再写入失效 MOD",
-    "34 个单元测试通过，两种打包版均实机验证"
+    "新增 AI 分析：填入 OpenAI 兼容接口（DeepSeek/OpenAI/本地模型）后读取工坊描述与评论，提取加载顺序、兼容性、注意事项",
+    "评论需可选填 Steam 登录 Cookie；未配置时只用描述，不报错",
+    "切换游戏改为原地切换，不再重启程序或新开窗口",
+    "用户数据目录识别增强：注册表 + Shell 已知文件夹 + 盘根目录“文档/用户”扫描，修复认成旧账户目录",
+    "新增“设置用户数据目录”手动指定入口",
+    "修复管理器数据文件并发写入可能损坏",
+    "检查更新失败不再弹红色报错；清单多源取最高版本；令牌跨重启稳定，修复 403"
   ],
-  "published_at": "2026-11-15 21:00:21"
+  "published_at": "2026-11-17 18:05:18"
 }
