@@ -1,15 +1,15 @@
 {
-  "version": "2.5.22",
-  "url": "https://github.com/weillpiter38-ctrl/huifengxiaozhushou/releases/download/v2.5.22/HuifengsModManager.exe",
-  "sha256": "1fcf5a9834b4d8ae25b28cb2b8d1d468a1606b5fb095111354918e174cfed9dc",
-  "notes": "文件夹变成真正的分类：拖 MOD 进文件夹、文件夹可拖动排序、右键组内批量与置顶置底、连续指示线。",
+  "version": "2.5.23",
+  "url": "https://github.com/weillpiter38-ctrl/huifengxiaozhushou/releases/download/v2.5.23/HuifengsModManager.exe",
+  "sha256": "7b9e4bd6a9d4e52942739c16434da5ad8adf59f4d990896cb31c71d44c19565a",
+  "notes": "作者名进列表、搜索可搜作者；AI 排序改成读工坊说明+社区规则；修 AI 的 JSON 报错。",
   "changelog": [
-    "文件夹行加高到 32px，名字/数量/操作键更清楚",
-    "把 MOD 拖到文件夹行上直接归组，目标组高亮",
-    "文件夹行可拖动排序，只改文件夹顺序，不动 MOD 顺序与启停",
-    "文件夹右键菜单：折叠、组内全启用/全停用、组内全部置顶/置底、重命名、移出全部、删除释放",
-    "文件夹内成员用一条连续竖线 + 每行横线串起来",
-    "新增 folder_reorder，文件夹顺序落 userdata.json"
+    "MOD 行显示创意工坊作者昵称，搜索框可搜作者名",
+    "AI 排序：先扫描工坊说明抽作者写的排序要求，再叠加社区分类规则",
+    "工坊说明上限放宽到 1200 字，抽取按每批 12 个 MOD 分批并缓存",
+    "修 AI 排序/冲突分析/崩溃归因的 JSON 解析失败（元组解包 + 括号配对 + 自动重试）",
+    "推理模型正文为空时提示改用 deepseek-chat",
+    "新增 POST /api/workshop_authors，只读缓存补拉作者名"
   ],
-  "published_at": "2026-11-22 21:12:41"
+  "published_at": "2026-11-22 22:18:00"
 }
